@@ -27,5 +27,7 @@ There are a few high-level steps that you need to do:
 - Tune Hyper Parameters for your XGBoost Model using Spark
 - Explain Parameters of the XGBoost Model
 - Save the model to Azure Storage
+
+Please refer to the [Jupyter Notebook](./Running_XGBoost_on_HDInsight_Spark.ipynb) for more detailed steps.
  
  If you have any questions or feedback for this repo, feel free to send us email (hdifeedback at microsoft dot com).
