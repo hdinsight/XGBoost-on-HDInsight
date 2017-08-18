@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 sudo apt-get install -y maven git build-essential cmake python-setuptools
 git clone --recursive https://github.com/dmlc/xgboost
