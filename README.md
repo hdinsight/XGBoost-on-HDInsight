@@ -18,17 +18,6 @@ The following figure illustrates the new pipeline architecture with the latest X
 
 With XGBoost4J-Spark, users are able to use both low- and high-level memory abstraction in Spark, i.e. RDD and DataFrame/Dataset. The DataFrame/Dataset abstraction grants the user to manipulate structured datasets and utilize the built-in routines in Spark or User Defined Functions (UDF) to explore the value distribution in columns before they feed data into the machine learning phase in the pipeline. In the following example, the structured sales records can be saved in a JSON file, parsed as DataFrame through Spark's API and feed to train XGBoost model in two lines of Scala code.
 
-
-### How to use this repository
-This repository has a notebook basically provides an E2E workflow with which you can:
-- Building XGBoost jars
-- Deploying the jars to Azure Storage
-- Build a simple Boosting Tree algorithm to HDInsight using Spark Pipelines
-- Tune Hyper-Parameters for a boosting Tree model
-- Explain the Parameters of the model built
-- Save the model to Azure Storage
-
-
 ### High-level steps
 There are a few high-level steps that you need to do:
 - Building XGBoost from source code
